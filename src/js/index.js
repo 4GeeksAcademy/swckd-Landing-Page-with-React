@@ -7,6 +7,9 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
+import Jumbotron from "./component/jumbotron.jsx";
+import Navbar from "./component/navbar.jsx";
+import Card from "./component/card.jsx";
 
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));
